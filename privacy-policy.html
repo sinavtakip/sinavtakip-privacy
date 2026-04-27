@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gizlilik Politikası — Sınav Takip</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #FBFBFA; color: #0F0F0E; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; line-height: 1.55; letter-spacing: -0.005em; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 56px 24px 80px; }
+  h1 { font-size: 32px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.15; margin-bottom: 12px; }
+  .sub { color: #7A7A77; font-size: 14px; margin-bottom: 36px; }
+  h2 { font-size: 18px; font-weight: 600; margin: 32px 0 10px; letter-spacing: -0.012em; }
+  p, li { font-size: 15px; color: #2B2B29; margin-bottom: 10px; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  ul li { margin-bottom: 6px; }
+  b, strong { color: #0F0F0E; font-weight: 600; }
+  .meta { font-size: 12px; color: #9A9A97; padding-top: 28px; border-top: 1px solid #E8E8E4; margin-top: 40px; }
+  a { color: #1F3A93; text-decoration: none; border-bottom: 1px solid #1F3A93; }
+  @media (prefers-color-scheme: dark) {
+    html, body { background: #0E0E0C; color: #F5F5F3; }
+    p, li { color: #C4C4C0; }
+    .sub { color: #9A9A97; }
+    .meta { color: #6E6E6B; border-top-color: #2A2A26; }
+    a { color: #8AA0F0; border-bottom-color: #8AA0F0; }
+    b, strong { color: #F5F5F3; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Gizlilik Politikası</h1>
+  <div class="sub">Sınav Takip · Son güncelleme: <span id="last-updated">2026</span></div>
+
+  <h2>Özet</h2>
+  <p>Sınav Takip <b>kişisel bilgilerinizi toplamaz, satmaz ve paylaşmaz.</b> Tüm
+  çalışma verileriniz (konular, ilerleme, notlar) sadece cihazınızda saklanır.
+  Uygulamayı geliştirmek için yalnızca anonim kullanım istatistiği toplarız ve
+  bunu da ayarlardan istediğiniz zaman kapatabilirsiniz.</p>
+
+  <h2>Hangi verileri saklarız?</h2>
+  <p><b>Cihazınızda kalan veriler (sunucuya gönderilmez):</b></p>
+  <ul>
+    <li>Adınız (onboarding'de girdiğiniz isim — sadece arayüz hitabı için)</li>
+    <li>Seçtiğiniz sınav türü (KPSS, YKS, MEB AGS, LGS)</li>
+    <li>Tamamladığınız konular ve çalışma süreleri</li>
+    <li>Konu notlarınız ve deneme sonuçlarınız</li>
+    <li>Bildirim tercihiniz (saat dilimleri)</li>
+  </ul>
+  <p>Bu veriler tamamen <b>cihazınızdaki tarayıcı/uygulama deposunda</b>
+  (LocalStorage) tutulur. Uygulama silindiğinde bu veriler de silinir. Yedek
+  almak isterseniz "Verileri dışa aktar" özelliğini kullanabilirsiniz.</p>
+
+  <h2>Anonim kullanım istatistiği</h2>
+  <p>Uygulamayı geliştirmek için <b>Firebase Analytics (Google)</b> hizmetiyle
+  aşağıdaki anonim olayları toplarız:</p>
+  <ul>
+    <li>Hangi ekranların açıldığı (örn. ana sayfa, plan, ilerleme)</li>
+    <li>Onboarding tamamlama / sınav seçim oranı</li>
+    <li>Bildirimlerin açık/kapalı durumu</li>
+    <li>Tamamlanan konu sayısı (kişi bazında değil, toplam)</li>
+  </ul>
+  <p>Bu veriler <b>kişiyle ilişkilendirilemez</b> — adınız, e-postanız, telefon
+  bilginiz veya cihaz kimliğiniz gönderilmez. Sadece anonim cihaz IDsi (Google
+  tarafından otomatik üretilen, sıfırlanabilir bir tanımlayıcı) kullanılır.</p>
+  <p>Bu özelliği <b>Ayarlar → Anonim kullanım verisi</b> bölümünden istediğiniz
+  zaman kapatabilirsiniz. Kapatıldığında hiçbir analitik olay gönderilmez.</p>
+
+  <h2>İzinler</h2>
+  <p>Sınav Takip sadece şu Android izinlerini kullanır:</p>
+  <ul>
+    <li><b>İnternet:</b> Yalnızca yukarıdaki anonim istatistik için. Çekirdek
+    işlevsellik internetsiz çalışır.</li>
+    <li><b>Bildirim (Android 13+):</b> Sadece sizin ayarladığınız çalışma
+    hatırlatmaları için.</li>
+    <li><b>Tam zamanlı alarm:</b> Belirli saatte bildirim gönderebilmek için.</li>
+    <li><b>Titreşim:</b> Bildirim ve dokunma geri bildirimi için.</li>
+  </ul>
+  <p>Konum, kamera, mikrofon, kişiler, dosya sistemi gibi izinler kullanılmaz.</p>
+
+  <h2>Çocuklar</h2>
+  <p>Sınav Takip 13 yaş ve üzeri kullanıcılara yöneliktir. 13 yaş altı
+  kullanıcılardan bilerek veri toplamayız.</p>
+
+  <h2>Üçüncü taraf hizmetler</h2>
+  <ul>
+    <li><b>Google Firebase Analytics</b> — anonim kullanım istatistiği.
+    <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase gizlilik politikası</a></li>
+  </ul>
+
+  <h2>Verilerinizi silme hakkı</h2>
+  <p>Uygulamayı silerek tüm cihaz verilerini bir anda kaldırabilirsiniz.
+  Anonim Firebase verilerinizin silinmesini istiyorsanız aşağıdaki e-posta
+  adresine yazın; Firebase Analytics kullanıcı silme isteğinizi 30 gün içinde
+  işleme alır.</p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişiklikler olduğunda
+  uygulamada bildirim göstereceğiz.</p>
+
+  <h2>İletişim</h2>
+  <p>Soru, talep veya şikayet için: <b><a href="mailto:sinavtakip.destek@gmail.com">sinavtakip.destek@gmail.com</a></b></p>
+
+  <div class="meta">
+    Sınav Takip · KVKK ve GDPR uyumlu · Bu sayfa açık kaynak şablondan oluşturulmuştur.
+  </div>
+</div>
+<script>
+  document.getElementById('last-updated').textContent =
+    new Date().toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
+</script>
+</body>
+</html>
