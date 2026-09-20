@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "_not": "Sinav Takip uygulamasinin uzaktan sinav tarihleri. Uygulama her acilista buradan okur; boylece tarih degisince yeni build gerekmez. Oncelik: kullanicinin kendi girdigi tarih > bu dosya > uygulamaya gomulu varsayilan. DIKKAT: RESMI TARIH ACIKLANMADAN BURAYA TAHMIN YAZMA — buradaki gelecege donuk bir tarih uygulamadaki (tahmini) etiketini KALDIRIR, kullanici onu resmi sanir. Su anki icerik uygulamaya gomulu tarihlerin AYNISI, yani hicbir degisiklik yapmaz.",
+  "_guncelleme": "2026-09-21",
+  "dates": {
+    "kpss": "2026-09-06",
+    "kpss_on": "2026-10-04",
+    "kpss_ort": "2026-10-25",
+    "ags": "2026-07-26",
+    "ags_only": "2026-07-26",
+    "yks": "2026-06-20",
+    "lgs": "2026-06-07"
+  }
+}
